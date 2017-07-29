@@ -36,9 +36,78 @@ body {
 	width: 535px;
 	padding: 15px;
 	box-shadow: 0 2px 2px 0 rgb(0,0,0,0.16), 0 0 0px 1px rgb(0,0,0,0.8);
+	border-radius:2px;
+	border: 1px solid #E4E4E4;
 }
 
 #search-bar:focus {
-	transition: box-shadow 200ms cubic-bezier(0.4, 0.0, 0.2, 0.1);
 	outline: none;
+}
+
+#buttons-container {
+	margin-top: 30px;
+}
+
+.buttons {
+	margin:2px;
+	overflow: visible;
+	border: none;
+	background-color: #F2F2F2;
+	border: 1px solid #F2F2F2;
+	border-radius: 2px;
+	color: #757575;
+	font-size: 13px;
+	font-weight: 700;
+	height: 35px;
+	padding: 0 15px 0 15px;
+
+}
+
+button:hover {
+	color: #000;
+	border: 1px solid #C0C0C0;
+}
+
+#message-container {
+	font-size:13px;
+	margin-top: 20px;
+}
+
+a {
+	color: #5A0DAB;
+	text-decoration-line:none;
+}
+
+a:hover {
+	text-decoration-line: underline;
+}
+
+#footer-container {
+	position: absolute;
+	right:0;
+	left:0;
+	bottom:0;
+	background-color:#F2F2F2;
+	height:40px;
+	border-top: 1px solid #E4E4E4;
+}
+
+.footer-divs {
+	display:inline;
+}
+
+a.footer-left {
+	text-decoration: none;
+	color: #757575;
+	font-size:13px;
+}
+
+.footer-left {
+	color:757575;
+	float:left;
+}
+
+.footer-right{
+	color:757575;
+	float:right;
 }
